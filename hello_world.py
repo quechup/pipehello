@@ -7,7 +7,7 @@ class HelloHandler(BaseHTTPRequestHandler):
         self.send_header("Content-type", "text/html")
         self.end_headers()
         self.wfile.write(b"Hello World")
-
+        self.wfile.write(b"<br/>Hello World")
 def run(server_class=HTTPServer, handler_class=HelloHandler):
     server_address = ("", 8080)
     httpd = server_class(server_address, handler_class)
@@ -17,4 +17,8 @@ def run(server_class=HTTPServer, handler_class=HelloHandler):
 if __name__ == "__main__":
     run()
 
+<<<<<<< HEAD
 # feature 1 
+=======
+# This is feature 2
+>>>>>>> feature2
