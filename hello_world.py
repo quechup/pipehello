@@ -19,5 +19,9 @@ if __name__ == "__main__":
 
 # feature 1 
 # This is feature 2
+<<<<<<< HEAD
 # Fecha: 2024-10-11
 # Hora: 21:32:01
+=======
+# 'Whatever you are, be a good one.' - Abraham Lincoln
+>>>>>>> rama2
