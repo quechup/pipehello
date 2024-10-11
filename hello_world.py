@@ -19,3 +19,4 @@ if __name__ == "__main__":
 
 # feature 1 
 # This is feature 2
+# 'Whatever you are, be a good one.' - Abraham Lincoln
